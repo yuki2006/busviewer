@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_search"
+            android:actionViewClass="com.actionbarsherlock.widget.SearchView"
+            android:icon="@android:drawable/ic_menu_search"
+            android:showAsAction="always"
+            android:title="@string/search"
+            android:visible="false">
+    </item>
+    <item
+            android:id="@+id/list_edit_mode_button"
+            android:icon="@drawable/ic_menu_edit"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/edit_list"
+            android:visible="false">
+    </item>
+    <item
+            android:id="@id/search_button"
+            android:icon="@drawable/action_search"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/search"
+            android:visible="false">
+    </item>
+    <item
+            android:id="@+id/go_tutorial"
+            android:showAsAction="never"
+            android:title="チュートリアル"
+            android:visible="false">
+    </item>
+
+</menu>

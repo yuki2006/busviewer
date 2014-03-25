@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/timetable_view_change_day"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/other_day">
+    </item>
+    <item
+            android:id="@id/add_my_bus_stop"
+            android:icon="@android:drawable/star_big_off"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/add_my_bus_stop">
+    </item>
+    <item
+            android:id="@+id/current_position"
+            android:showAsAction="withText"
+            android:title="@string/view_on_map">
+    </item>
+    <item
+            android:id="@+id/add_shortcut"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="@string/add_short_cut">
+    </item>
+    <item
+            android:id="@+id/timetable_show_pf"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/setting_timeline_view">
+    </item>
+    <item
+            android:id="@+id/change_loading_alias_button"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/change_loading_zone_alias">
+    </item>
+
+</menu>

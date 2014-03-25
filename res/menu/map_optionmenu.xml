@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/action_search"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/search">
+    </item>
+    <item
+            android:id="@+id/item_switch_map"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="地図の切り替え">
+    </item>
+
+</menu>

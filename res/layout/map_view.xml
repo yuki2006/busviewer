@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/select_busstop_for_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="検索するバス停を、地図から選択して下さい。"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/loadingmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/if_display_marker_on_map_zoom"
+                android:textColor="#0000ff"/>
+    </LinearLayout>
+
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="jp.co.yuki2006.busmap.map.BusMapFragment"
+            android:tag="map"/>
+
+</LinearLayout>

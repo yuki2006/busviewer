@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <include
+            android:id="@+id/advanced_search_departure_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/advanced_search_block"
+            android:focusable="false" />
+
+        <include
+            android:id="@+id/advanced_search_arrival_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/advanced_search_block"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/is_transfer_text"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/menu_add_myroot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@android:drawable/btn_star_big_off" />
+
+</LinearLayout>

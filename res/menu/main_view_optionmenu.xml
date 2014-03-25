@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item
+        android:id="@+id/goto_advanced_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="詳細検索へ">
+    </item>
+    -->
+    <item
+            android:id="@+id/menu_setting"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:showAsAction="always|withText"
+            android:title="設定">
+    </item>
+    <!-- このアプリについて -->
+
+    <item
+            android:id="@+id/menu_about_me"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/information">
+    </item>
+
+    <item
+            android:id="@+id/go_to_custom_alias_menu"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:menuCategory="secondary"
+            android:title="乗り場の変更フォーム">
+    </item>
+
+</menu>

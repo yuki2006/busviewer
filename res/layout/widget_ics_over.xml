@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/widget_frame"
+              style="@style/widget_focus"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/advanced_search_departure"
+                android:padding="5dp"
+                android:text="@string/departure"
+                android:textColor="@color/advanced_search_departure"
+                android:textSize="@dimen/widget_font_size"/>
+
+        <TextView
+                android:id="@+id/widget_d_busstop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/loading_data"
+                android:textSize="@dimen/widget_font_size">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/advanced_search_departure"
+                android:padding="5dp"
+                android:text="@string/arrive"
+                android:textColor="@color/advanced_search_departure"
+                android:textSize="@dimen/widget_font_size"/>
+
+        <TextView
+                android:id="@+id/widget_a_busstop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/widget_font_size">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/my_root_next_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/bustimeline_next_bus_time"
+            android:textSize="@dimen/widget_font_size"/>
+
+    <ListView
+            android:id="@+id/widget_root_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

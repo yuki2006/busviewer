@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/swap_busstop_data"
+            android:showAsAction="collapseActionView"
+            android:title="出発と到着を入れ替える">
+    </item>
+
+</menu>

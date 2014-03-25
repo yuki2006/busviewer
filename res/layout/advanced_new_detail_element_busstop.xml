@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/advanced_search_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/advanced_search_departure"
+            android:focusable="false"
+            android:padding="5sp"
+            android:textColor="@color/advanced_search_departure"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:id="@+id/advanced_new_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+
+    <TextView
+            android:id="@+id/advanced_busstop_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/arrow_up_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@android:drawable/arrow_up_float"
+                android:text="@string/prev_bus_stop"/>
+
+        <Button
+                android:id="@+id/arrow_down_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:text="@string/next_bus_stop"/>
+    </LinearLayout>
+
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="jp.co.yuki2006.busmap.map.BusMapFragment"
+            android:tag="map"/>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">石川バスビュワー</string>
+    <string name="information">このアプリについて</string>
+    <string name="add_short_cut">ホームにショートカット</string>
+    <string name="add_my_bus_stop">マイバス停に登録</string>
+    <string name="empty_my_root">詳細検索での検索条件を保存（マイルートに追加）したものを表示できます。</string>
+    <string name="empty_my_busstop">バスを検索した時や時刻表のページから追加することができます。</string>
+    <string name="add_my_root">マイルートに追加する</string>
+    <string name="feed_back">ご意見・ご感想</string>
+    <string name="day_today_timetable">今日の時刻表</string>
+    <string name="day_holyday_timetable">日祝の時刻表</string>
+    <string name="day_saturday_timetable">土曜の時刻表</string>
+    <string name="day_weekday_timetable">平日の時刻表</string>
+    <string name="delete">削除</string>
+    <string name="widget_move_to_phone">ウィジェット機能を使うには、下の設定ボタンから「携帯端末に移動」ボタンを押して、アプリを再起動してください。
+    </string>
+    <string name="not_connect_server">サーバーに接続できませんでした。</string>
+    <string name="time_out_connection">一定時間内にデータが取得できませんでした。</string>
+    <string name="show_time_table">時刻表を表示する</string>
+    <string name="search">検索</string>
+
+    <string-array name="time_select">
+        <item>出発時間</item>
+        <item>到着時間</item>
+        <item>始発バス</item>
+        <item>終発バス</item>
+    </string-array>
+
+    <string name="accuracy_fix_meter">最大誤差は%dメートルです。</string>
+    <string name="please_wait_location_get">位置情報を取得するまでしばらくお待ちください。\n青い点が出たら再びボタンを押してください。</string>
+    <string name="did_you_mean">もしかして？</string>
+    <string name="input_search_busstop">検索するバス停を入力</string>
+    <string name="rooting_departure_container_label">出発バス停</string>
+    <string name="rooting_arrive_container_label">到着バス停</string>
+    <string name="goto_setting_view">設定画面へ</string>
+    <string name="please_renewal_alias_describe">　「○○前」など乗り場名をわかりやすい名前への変更の案があれば是非ご協力お願いします。\n
+        この変更は開発者による確認の後、すべてのユーザーに反映されます。
+    </string>
+    <string name="new_loading_alias">新しい乗り場名</string>
+    <string name="edit_list">リストの編集</string>
+    <string name="route_number">路線番号</string>
+    <string name="add">追加</string>
+    <string name="by_map">マップから検索</string>
+    <string name="my_bus_stop">マイバス停</string>
+    <string name="my_route">マイルート</string>
+    <string name="input_address">検索する文字を入力してください。</string>
+    <string name="loading_data">読み込み中です</string>
+    <string name="about_widget">ウィジェットについて</string>
+    <string name="at">で</string>
+    <string name="change_loading_zone_alias">乗り場名変更</string>
+    <string name="search_as_start_point">出発地点として検索</string>
+    <string name="search_as_end_point">到着地点として検索</string>
+    <string name="goto_buscool">バスく～るで見る</string>
+    <string name="found_invalid_data">不正なデータを検出し、削除しました。</string>
+    <string name="connection_terminated">接続に時間がかかりすぎているので打ち切りました。</string>
+    <string name="request_problem">データ通信に問題があります。\n
+        現在運行されてないバスや\n
+        マイルートを一旦削除し再び登録するなどを行なってみてください。
+    </string>
+    <string name="connection_concentration">サーバーにアクセスが集中しているため、処理できませんでした。</string>
+    <string name="dummy"/>
+    <string name="bus_stop_voice_search">バス停の音声検索</string>
+    <string name="if_display_marker_on_map_zoom">バス停を表示するには、マップを拡大して下さい</string>
+    <string name="show_remarks">備考</string>
+    <string name="other_day">曜日の変更</string>
+    <string name="view_on_map">地図上で表示</string>
+    <string name="setting_timeline_view">時刻表表示の設定</string>
+
+    <string-array name="select_buslist_for_advanced_search">
+        <item>出発バス停を選択してください</item>
+        <item>到着バス停を選択してください</item>
+    </string-array>
+
+    <string name="search_name_of_bus_stop">バス停名から検索</string>
+    <string name="advanced_search">詳細検索</string>
+    <string name="call_me_position">施設名を教えて下さい</string>
+    <string name="remark">備考</string>
+    <string name="mix_search_busstop">バス停</string>
+    <string name="mix_search_location">住所・店舗</string>
+
+    <string-array name="not_found_busstop_for_advanced_search">
+        <item>出発バス停が見つかりませんでした。</item>
+        <item>到着バス停が見つかりませんでした。</item>
+    </string-array>
+    <string name="menu">メニュー</string>
+    <string name="departure">出発</string>
+    <string name="arrive">到着</string>
+    <string name="non_step_bus">ノンステップバス</string>
+    <string name="search_input">バス停入力</string>
+    <string name="search_history">検索履歴</string>
+    <string name="change_search_bus_stop">検索バス停を変更する</string>
+    <string name="prev_bus_stop">前のバス停へ</string>
+    <string name="next_bus_stop">次のバス停へ</string>
+</resources>

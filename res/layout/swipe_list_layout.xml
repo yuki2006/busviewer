@@ -1,0 +1,21 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/list_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            android:text="@string/list_swipe_handle_marker"
+            android:textSize="20sp"
+            android:color="#000000"/>
+
+    <FrameLayout
+            android:id="@+id/swipe_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </FrameLayout>
+
+</merge>

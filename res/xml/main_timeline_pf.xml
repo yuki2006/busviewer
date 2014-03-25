@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="展開しなくても表示する項目">
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="pf_key_main_timeline_show_loading_zone"
+                android:title="乗り場"/>
+        <CheckBoxPreference
+                android:key="pf_key_main_timeline_show_linenumber"
+                android:title="路線番号"/>
+        <CheckBoxPreference
+                android:key="pf_key_main_timeline_show_prev_time"
+                android:title="前のバスからの時間"/>
+        <CheckBoxPreference
+                android:key="pf_key_main_timeline_show_next_time"
+                android:title="次のバスまでの時間"/>
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory android:title="時刻表表示" >
+        <CheckBoxPreference
+            android:key="@string/loading_filter_check"
+            android:summary="時刻表の表示の際に指定した路線番号のものだけ表示します。(詳細検索は除く)"
+            android:title="路線番号フィルター" >
+        </CheckBoxPreference>
+
+        <jp.co.yuki2006.busmap.pf.LoadingFilterPreference
+            android:dependency="@string/loading_filter_check"
+            android:key="@string/loading_filter_list"
+            android:summary="フィルターに使うリストを編集します"
+            android:title="フィルターの編集" />
+    </PreferenceCategory>
+
+
+
+
+    -->
+
+</PreferenceScreen>

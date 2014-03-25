@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="10sp"
+              android:paddingLeft="40sp">
+
+    <TextView
+            android:id="@+id/expandable_parent_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF">
+    </TextView>
+
+    <TextView
+            android:id="@+id/expandable_parent_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bustimeline_loading">
+    </TextView>
+
+    <TextView
+            android:id="@+id/linenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999">
+    </TextView>
+
+    <TextView
+            android:id="@+id/expandable_parent_prev_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bustimeline_prev_bus_time">
+    </TextView>
+
+    <TextView
+            android:id="@+id/expandable_parent_next_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bustimeline_next_bus_time">
+    </TextView>
+
+</LinearLayout>

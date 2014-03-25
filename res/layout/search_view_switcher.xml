@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/search_view_switcher"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <ImageButton
+            android:id="@+id/voice_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_btn_speak_now">
+    </ImageButton>
+
+    <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_btn_search">
+    </ImageButton>
+
+</ViewSwitcher>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 時刻表の拡張リストの子供部分です。 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/expandable_time_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="right"
+            android:paddingLeft="40sp"
+            android:textSize="18sp">
+    </TextView>
+
+    <TextView
+            android:id="@+id/expandable_time_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:paddingLeft="20sp"
+            android:textSize="18sp">
+    </TextView>
+
+</LinearLayout>

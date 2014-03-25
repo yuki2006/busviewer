@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/bus_stop_show_time"
+            android:title="@string/show_time_table"/>
+
+    <group android:id="@+id/group1">
+        <item
+                android:id="@+id/departure_stop_menu"
+                android:title="@string/search_as_start_point"/>
+        <item
+                android:id="@+id/arrive_stop_menu"
+                android:title="@string/search_as_end_point"/>
+    </group>
+
+    <item
+            android:id="@+id/move_busstop"
+            android:title="地図上で表示"
+            android:visible="false"/>
+    <item
+            android:id="@+id/add_my_bus_stop"
+            android:title="@string/add_my_bus_stop"/>
+    <item
+            android:id="@+id/add_shortcut"
+            android:title="@string/add_short_cut"/>
+    <item
+            android:id="@+id/bus_stop_delete"
+            android:icon="@android:drawable/ic_delete"
+            android:title="@string/delete"
+            android:visible="false"/>
+    <!--
+    <group android:menuCategory="secondary" >
+        <item
+            android:id="@+id/list_menu"
+            android:title="リストメニュー"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/list_up_to"
+                    android:title="リストの一つ上にする">
+                </item>
+                <item
+                    android:id="@+id/list_down_to"
+                    android:title="リストの一つ下にする">
+                </item>
+            </menu>
+        </item>
+    </group>
+    -->
+
+</menu>

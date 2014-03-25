@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+            android:key="application_version"
+            android:summary="ここをタップでサポートTwitterアカウントへ"
+            android:title="アプリの情報"/>
+
+    <!--
+    <PreferenceCategory android:title="デザインに関する設定" >
+
+        <ListPreference
+            android:entries="@array/background_color_label_array"
+            android:entryValues="@array/background_color_label_value"
+            android:key="@string/pf_backgroud_color"
+            android:summary="アプリの背景色を変更します。"
+            android:title="背景色" />
+    </PreferenceCategory>
+    -->
+    <PreferenceCategory android:title="リストに関する設定">
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="ListDefaultAction"
+                android:summaryOff="リストをタップするとコンテキストメニューの一番上を選択します"
+                android:summaryOn="リストをタップするとコンテキストメニューを表示します"
+                android:title="タップでメニューを表示する">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="時刻表表示の設定">
+        <Preference
+                android:key="pf_goto_timeline_setting"
+                android:title="時刻表表示の設定へ"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:enabled="true"
+            android:selectable="true"
+            android:title="住所検索の設定">
+        <CheckBoxPreference
+                android:key="pf_send_location_name"
+                android:summary="住所検索の情報を送信し、アプリ機能向上の参考にさせて頂きます。"
+                android:title="住所検索の情報を送信する">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:enabled="true"
+            android:selectable="true"
+            android:title="マーカー表示の設定">
+
+        <!--
+        <jp.co.yuki2006.busmap.pf.PreferenceSlider
+            dialogsummary="数が大きくなるごとに、処理が重くなる可能性がありますが、たくさんのマーカーを表示します。"
+            android:defaultValue="10"
+            android:enabled="true"
+            android:key="MAXStopmarker"
+            android:max="40"
+            android:selectable="true"
+            android:summary="画面中に一度に表示するマーカー数、処理が重くならないように打ち切ります。"
+            android:title="マーカー表示数" >
+        </jp.co.yuki2006.busmap.pf.PreferenceSlider>
+        -->
+        <jp.co.yuki2006.busmap.pf.PreferenceSlider
+                dialogsummary="表示されてるマップ内にあるバス停を自動的に読み込むズームレベルを指定します。\n基本的には変更しないでください"
+                android:defaultValue="16"
+                android:enabled="true"
+                android:key="IncrementalBusStop"
+                android:max="21"
+                android:selectable="true"
+                android:summary="あるズーム値以上のときにそのマップ内にあるバス停を読み込み表示します。"
+                android:title="マーカー読み込みレベル">
+        </jp.co.yuki2006.busmap.pf.PreferenceSlider>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="データの管理">
+        <Preference
+                android:key="pf_recent_search_clear"
+                android:title="検索履歴の削除"/>
+        <Preference
+                android:key="key_reset_settings"
+                android:summary="万が一、動作がおかしくなった場合に実行してください。ここを選択後「データを消去」を選択して下さい。（すべて設定しなおしてください）"
+                android:title="全データのリセット"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/feed_back">
+        <Preference
+                android:key="key_go_android_market"
+                android:summary="ストアのレビューにお願いします。"
+                android:title="Playストアへ"/>
+        <Preference
+                android:key="key_go_enquete"
+                android:summary="アプリのアンケートです。（ブラウザが開きます）"
+                android:title="アンケートフォームへ"/>
+        <Preference
+                android:key="key_go_support_twitter"
+                android:summary="サポートTwitterアカウントです。アプリの最新情報掲載や、問題報告も受け付けております。"
+                android:title="サポートTwitterへ"/>
+        <Preference
+                android:key="key_go_facebook"
+                android:summary="北鉄バスビュワーのFacebookページです。アプリの最新情報掲載や、問題報告も受け付けております。是非いいね！をお願いします。"
+                android:title="Facebookページへ"/>
+        <Preference
+                android:key="key_support_mail"
+                android:summary="比較的重要な用件や開発者に連絡したい場合はこちら。なるべく迅速に対応したいと思います。"
+                android:title="開発者へメール"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

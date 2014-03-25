@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/timeline_day_textview"
+                style="@style/timeline_diagram_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        <Spinner
+                android:id="@+id/loadinglist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        </Spinner>
+
+        <Button
+                android:id="@+id/show_remarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_remarks"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <ExpandableListView
+                android:id="@id/timeline_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="false">
+        </ExpandableListView>
+
+        <include layout="@layout/admods"/>
+    </LinearLayout>
+
+</LinearLayout>

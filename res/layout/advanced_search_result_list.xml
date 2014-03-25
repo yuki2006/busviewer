@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:orientation="horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <include
+                android:id="@+id/advanced_search_result_departure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                layout="@layout/advanced_search_bus_label"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="～"
+                android:textSize="30sp"/>
+
+        <include
+                android:id="@+id/advanced_search_result_arrive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                layout="@layout/advanced_search_bus_label"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+        <TextView
+                android:id="@+id/advanced_search_result_last_bus_stop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555555"/>
+
+        <TextView
+                android:id="@+id/advanced_search_result_linenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555555"/>
+
+        <TextView
+                android:id="@+id/advanced_search_result_non_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non_step_bus"/>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555555"/>
+
+        <TextView
+                android:id="@+id/advanced_search_result_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/remark_emphasis"/>
+    </LinearLayout>
+
+</LinearLayout>

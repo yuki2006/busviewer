@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">Ishikawa Bus Viewer</string>
+    <string name="my_bus_stop">My BusStop</string>
+
+    <string-array name="time_select">
+        <item>Departure</item>
+        <item>Arrival</item>
+        <item>First</item>
+        <item>Last</item>
+    </string-array>
+
+        <string-array name="transfer_time">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="input_search_busstop">Enter a search busstop name</string>
+    <string name="add_my_bus_stop">add MyBusStop</string>
+    <string name="add_my_root">add MyRoute</string>
+    <string name="add_short_cut">add Shortcut</string>
+    <string name="accuracy_fix_meter">The error is %d meters.</string>
+    <string name="about_widget">about widget</string>
+    <string name="add">add</string>
+    <string name="at">at</string>
+    <string name="by_map">Search by map</string>
+    <string name="change_loading_zone_alias">change Loading Zone \nAlias Name</string>
+    <string name="day_holyday_timetable">Holyday</string>
+    <string name="day_saturday_timetable">Saturday</string>
+    <string name="day_today_timetable">Today</string>
+    <string name="day_weekday_timetable">Weekday</string>
+    <string name="empty_my_busstop">You can add pages when you search or bus
+        timetables.
+    </string>
+    <string name="empty_my_root">Advanced Search Save Search on the (Add to My
+        route) you can view those.
+    </string>
+    <string name="delete">delete</string>
+    <string name="edit_list">edit list</string>
+    <string name="feed_back">feed back</string>
+    <string name="goto_setting_view">Show Setting View</string>
+    <string name="information">Information</string>
+    <string name="input_address">input name</string>
+    <string name="please_wait_location_get">Please wait location get.</string>
+    <string name="did_you_mean">Did you mean？</string>
+    <string name="rooting_departure_container_label">Departure BusStop</string>
+    <string name="route_number">route number</string>
+    <string name="search">search</string>
+    <string name="show_time_table">View time table</string>
+    <string name="time_out_connection">The data could not be retrieved within a specified
+        time.
+    </string>
+    <string name="widget_move_to_phone">ウィジェット機能を使うには、下の設定ボタンから「携帯端末に移動」ボタンを押して、アプリを再起動してください。
+    </string>
+    <string name="my_route">My Route</string>
+    <string name="new_loading_alias">New Loading Zone name</string>
+    <string name="not_connect_server">Not Connect for Server</string>
+    <string name="please_renewal_alias_describe">"Before ○ ○" Come and help others in any proposed
+        changes to the descriptive name, such as name stand. This change \n
+        will be reflected to all users
+    </string>
+    <string name="rooting_arrive_container_label">Arrival BusStop</string>
+    <string name="loading_data">Now loading.</string>
+    <string name="list_swipe_handle_marker">"::: "</string>
+    <string name="search_as_start_point">search as start point</string>
+    <string name="search_as_end_point">search as end point</string>
+    <string name="key_go_support_twitter">key_go_support_twitter</string>
+    <string name="show_remarks">Remarks</string>
+
+    <string-array name="select_buslist_for_advanced_search">
+        <item>Choose a Departure</item>
+        <item>Choose a Arrival</item>
+    </string-array>
+    <string-array name="not_found_busstop_for_advanced_search">
+        <item>Not found Departure Bus Stop</item>
+        <item>Not found Arrival Bus Stop</item>
+    </string-array>
+
+    <string name="goto_buscool">View on "バスく～る"</string>
+    <string name="dummy"></string>
+    <!--
+         <string name="map_suggestion_provider">map_suggestion_provider</string>
+		<string name="bus_stop_suggestion_provider">bus_stop_suggestion_provider</string>
+
+
+
+
+
+    -->
+    <string name="if_display_marker_on_map_zoom">To view the bus stop marker, please expand the map
+    </string>
+    <string name="found_invalid_data">found invalid data</string>
+    <string name="search_name_of_bus_stop">Search from name</string>
+    <string name="advanced_search">advanced search</string>
+    <string name="bus_stop_voice_search">Voice Search Bus Stop</string>
+    <string name="request_problem">request_problem</string>
+    <string name="connection_concentration">connection problem</string>
+    <string name="view_on_map">On Map</string>
+    <string name="call_me_position">Tell me the facility</string>
+    <string name="other_day">Change day</string>
+    <string name="connection_terminated">Disconnection.
+        Too long time.
+    </string>
+    <string name="setting_timeline_view">Setting</string>
+    <string name="remark">remark</string>
+    <string name="from_map">From Map</string>
+    <string name="mix_search_busstop">BusStop</string>
+    <string name="mix_search_location">Location</string>
+    <string name="menu">Menu</string>
+    <string name="departure">Dep</string>
+    <string name="arrive">Arr</string>
+    <string name="non_step_bus">Non Step Bus</string>
+    <string name="search_input">Search</string>
+    <string name="search_history">History</string>
+    <string name="widget_small">石川バスビュワー 2x1</string>
+    <string name="widget_normal">石川バスビュワー 4x1</string>
+    <string name="widget_expand">石川バスビュワー 4x2</string>
+    <string name="widget_micro">石川バスビュワー 1x1</string>
+    <string name="by_map">by Map</string>
+    <string name="change_search_bus_stop">Change BusStop</string>
+    <string name="prev_bus_stop">prev BusStop</string>
+    <string name="next_bus_stop">next BusStop</string>
+</resources>

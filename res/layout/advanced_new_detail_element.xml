@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="10sp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#333333"
+            android:orientation="vertical">
+
+        <include
+                android:id="@+id/advanced_new_detail_departure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/advanced_new_detail_element_busstop"/>
+
+        <TextView
+                android:id="@+id/advanced_new_detail_bus_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:id="@+id/advanced_new_detail_bus_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/remark_emphasis"
+                android:textSize="18sp"/>
+
+        <include
+                android:id="@+id/advanced_new_detail_arrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/advanced_new_detail_element_busstop"/>
+    </LinearLayout>
+
+</LinearLayout>

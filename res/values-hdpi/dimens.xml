@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="rec_widget_cell1_width">60.0dip</dimen>
+    <dimen name="rec_widget_cell2_width">120.0dip</dimen>
+    <dimen name="rec_widget_cell4_width">250.0dip</dimen>
+    <dimen name="rec_widget_cell1_height">40.0dip</dimen>
+    <dimen name="rec_widget_cell2_height">110.0dip</dimen>
+    <dimen name="widget_font_size">15.0sp</dimen>
+    <dimen name="widget_2x1_size">16.0sp</dimen>
+    <dimen name="widget_list_element_font_size">15.0sp</dimen>
+
+</resources>

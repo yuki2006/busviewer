@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="次のバスまでの時間は時刻表に元に表示しています。\n実際の運行情報ではありません。"/>
+
+        <ListView
+                android:id="@+id/my_root_activity_list"
+                style="@style/list_border"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+        </ListView>
+
+        <include layout="@layout/admods"/>
+    </LinearLayout>
+
+    <include
+            android:id="@+id/list_swipe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/list_swipe_layout"/>
+
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <include
+            android:id="@+id/advanced_search_departure_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/advanced_search_block"/>
+
+    <include
+            android:id="@+id/advanced_search_arrival_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/advanced_search_block"/>
+
+</LinearLayout>

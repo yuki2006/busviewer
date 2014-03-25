@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <CheckBox
+            android:id="@+id/search_confirm_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="開発者に検索の結果を送信する"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="施設名や住所などを検索して、その近くバス停を検索することができます。\n\nただし、検索しづらい施設名も多いです。\n\n 検索の情報を開発者に送信していただけると、その情報を用いてさらに使いやすいアプリを目指しますので是非、ご協力お願いします。\n送信データには、見ているマップの位置情報も含まれます。\n\n住所検索はGoogleが提供しているサービスです、ここのチェックがオフになっていても機能は使えます。\n\nこの設定は、設定画面からも変更できます。"/>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="RootingBusTextColor">#FFFFFF</color>
+    <color name="bustimeline_weekday">#fffacd</color>
+    <color name="bustimeline_saturday">#00FFFF</color>
+    <color name="bustimeline_sunday">#ff4500</color>
+    <color name="bustimeline_next_bus_time">#00FF00</color>
+    <color name="bustimeline_prev_bus_time">#FFFFAA</color>
+    <color name="bustimeline_loading">#AAAAFF</color>
+    <color name="advanced_search_departure">#003366</color>
+    <color name="remark_emphasis">#ffd700</color>
+</resources>

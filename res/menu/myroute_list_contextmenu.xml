@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/go_to_advanced_search"
+            android:title="詳細検索へ">
+    </item>
+    <item
+            android:id="@+id/go_to_buscool"
+            android:title="@string/goto_buscool">
+    </item>
+    <item
+            android:id="@+id/remove_my_route"
+            android:title="@string/delete">
+    </item>
+
+</menu>
