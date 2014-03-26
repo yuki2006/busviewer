@@ -14,6 +14,11 @@ Android版石川バスビュワー（旧北鉄バスビュワー）だったソ�
 現在のスキルではもっとスマートに書けると思います。
 (Android-AnnotationsやGreenDAOを導入するなど）
 
+## 注意
+このソースコードをビルドしても、特に何も出来ません。
+メインのロジックはサーバーサイドだったため、アプリ側には特に重要なコードはないと考えています。（なので公開致しました）
+
+
 ##依存ライブラリ
 * [ActionBarSherlock](http://actionbarsherlock.com/)  Apache License Version 2.0
 * [ViewPagerIndicator](http://viewpagerindicator.com/) Apache License Version 2.0
@@ -21,7 +26,13 @@ Android版石川バスビュワー（旧北鉄バスビュワー）だったソ�
 * google-play-services.jar
 
 ##含まれていないもの
-アプリのアイコン・広告(Admob)周りのコード・時刻表/バス停データ（サーバーサイドで提供していたため）・アクセスポイントURL
+* アプリのアイコン
+* 広告(Admob)周りのコード
+* 時刻表/バス停データ（サーバーサイドで提供していたため）
+* アクセスポイントURL
+* Android Google Map V2 ID
+* keystore(もちろん）
+
 
 # ライセンス
 （書く必要がない気もしますが、書かなかった際に面倒なことになってもあれなので）
